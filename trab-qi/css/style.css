@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    height: 100vh;
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 50%;
+    width: 50vw;
+    text-align: center;
+    height: 100vh;
+}
+
+#logo {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+#logo img {
+    height: 7rem;
+}
+
+#logo p {
+    margin-top: 2rem;
+    font-size: 4rem;
+}
+
+form {
+    width: 50%;
+    display: inline-block;
+}
+
+input {
+    background-color: #cccccc;
+}
+
+label {
+    display: flex;
+    justify-content: flex;
+    width: 200px;
+}
+
+form input[type="checkbox"] {
+    margin-left: -6px;
+    width: 50px;
+}
+
+form label[for="name"] {
+    margin-bottom: -18px;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="submit"] {
+    display: block;
+    width: 90%;
+    justify-content: center;
+    padding: 1rem;
+    margin: 1rem auto;
+    border: 2px solid #000000;
+}
+
+#forgotPass {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0.25rem 0;
+    color: #000000;
+    text-decoration: none;
+}
+
+.keepMeOn {
+    margin: 1.5rem 0;
+    display: flex;
+}
+
+form input[type="submit"] {
+    background-color: #205B99;
+    border: none;
+    margin-top: 2rem;
+    color: #FFFFFF;
+    width: 98%;
+    font-weight: bold;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+p a:visited,
+p a:link,
+p a:hover,
+p a:active {
+    text-decoration: none;
+    color: #000000;
+}
+
+#noAccount {
+    margin-top: 2rem;
+}
