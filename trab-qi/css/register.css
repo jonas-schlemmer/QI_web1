@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    height: 100vh;
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 50%;
+    width: 50vw;
+    text-align: center;
+    height: 100vh;
+}
+
+#logo {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+#logo img {
+    height: 7rem;
+}
+
+#logo p {
+    margin-top: 2rem;
+    font-size: 4rem;
+}
+
+input {
+    background-color: #cccccc;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 15rem;
+    justify-content: center;
+    padding: 1rem;
+    border: 2px solid #000000;
+}
+
+label {
+    text-align: left;
+    display: block;
+}
+.field {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem;
+}
+
+input[type="submit"] {
+    background-color: #205B99;
+    border: none;
+    margin-top: 2rem;
+    color: #FFFFFF;
+    width: 50%;
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.agree {
+    gap: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+#noAccount {
+    margin-top: 2rem;
+}
+
+p a:visited,
+p a:link,
+p a:hover,
+p a:active {
+    text-decoration: none;
+    color: #000000;
+}

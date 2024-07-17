@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tecknum | Cadastro </title>
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="shortcut icon" href="../images/logo.png">
+</head>
+<body>
+   <main>
+        <div id="logo">
+            <img src="../images/logo.png" alt="tecknum logo">
+            <p>tecknum</p>
+        </div>
+        <form>
+            <div class="field">
+
+                <div>
+                    
+                    <label for="register-name">Nome completo</label><br>
+                    <input type="text" id="register-name" name="register-name" required>
+                </div>
+                <div>
+                    
+                    <label for="username">Usuário</label><br>
+                    <input type="text" id="username" name="username" required>
+                </div>
+
+            </div>
+            <div class="field">
+
+                <div>
+                    
+                    <label for="register-password">Digite uma senha</label><br>
+                    <input type="password" id="register-password" name="register-password" required>
+                </div>
+
+                <div>
+                    
+                    <label for="register-confirm-password">Confirme a senha</label><br>
+                    <input type="password" id="register-confirm-password" name="register-confirm-password" required>
+                </div>
+            </div>
+                
+            
+        </form>
+        
+    <div class="agree">
+        <input type="checkbox" id="checkbox" name="checkbox" required>
+        <label for="checkbox">Concordo com os <b>Termos de Uso do Usuário Final</b></label>
+    </div>
+    <a href="../pages/computers.html">
+        <input type="submit" value="Acessar">
+    </a>
+        <p id="noAccount">Já possui uma conta?
+            <a href="../index.html">
+                <b>Fazer login</b>
+            </a>
+        </p>
+   </main>
+</body>
+</html>
