@@ -18,7 +18,7 @@ body {
     background-repeat: no-repeat;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-end;
+    align-items: center;
 }
 
 main {
@@ -28,10 +28,14 @@ main {
     width: 50vw;
     text-align: center;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #logo {
-    margin: 1rem 0;
+    margin: 0.5rem 0;
     display: flex;
     justify-content: center;
 }
@@ -74,8 +78,8 @@ input[type="submit"] {
     border: none;
     margin-top: 2rem;
     color: #FFFFFF;
-    width: 50%;
-    padding: 0.5rem;
+    width: 100%;
+    padding: 1rem 7.5rem;
     font-weight: bold;
     font-size: 1.25rem;
     cursor: pointer;
@@ -91,10 +95,10 @@ input[type="submit"] {
     margin-top: 2rem;
 }
 
-p a:visited,
-p a:link,
-p a:hover,
-p a:active {
+a:visited,
+a:link,
+a:hover,
+a:active {
     text-decoration: none;
     color: #000000;
 }

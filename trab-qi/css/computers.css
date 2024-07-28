@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo img {
+    height: 4rem;
+}
+
+#logo p {
+    font-size: 2rem;
+    margin: 0 1rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+#header-logo {
+    align-items: center;
+}
+
+#header-logo img {
+    height: 3rem;
+}
+
+#header-logo h1 {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    justify-content: flex-end;
+    /* width: 100%; */
+    /* border: green 1px solid; */
+}
+#btns {
+    /* border: red 1px solid; */
+    /* gap: 1rem; */
+    width: 20%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#btns button {
+    background-color: #205B99;
+    border: none;
+    border-radius: 2rem 0 0 2rem;
+    /* margin-top: 2rem; */
+    color: #FFFFFF;
+    width: 90%;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+#btn-image-new {
+    margin-bottom: -3.8rem;
+    margin-left: -0.6rem;
+    width: 4rem;
+}
+
+#btn-image-remove {
+    margin-bottom: -3.75rem;
+    margin-left: -0.4rem;
+    width: 3.5rem;
+}
+
+#btn-image-export {
+    margin-bottom: -3.75rem;
+    margin-left: -1rem;
+    width: 4.2rem;
+}
+
+table {
+    /* width: 15%; */
+    /* display: flex; */
+    width: 70%;
+    justify-content: flex-end;
+
+    border: green 1px solid;
+    border-collapse: collapse;
+    margin: 2rem;
+}
+
+th, td {
+    padding: 1rem;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+th {
+    background-color: #205B99;
+    color: #FFFFFF;
+    font-weight: 800;
+}
+
+
+tr:hover {
+    background-color: #ddd;
+}
+
+.btn-option {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

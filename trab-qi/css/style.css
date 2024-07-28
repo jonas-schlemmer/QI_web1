@@ -12,13 +12,14 @@ html {
 
 body {
     height: 100vh;
+    margin: 0;
     background-image: url('../images/background.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     justify-content: flex-end;
-    align-items: flex-start;
+    align-items: center;
 }
 
 main {
@@ -26,14 +27,19 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     max-width: 50%;
     width: 50vw;
-    text-align: center;
     height: 100vh;
+    text-align: center;
+    justify-content: center;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #logo {
     margin: 1rem 0;
     display: flex;
     justify-content: center;
+    /* align-items: center; */
 }
 
 #logo img {
@@ -104,10 +110,10 @@ form input[type="submit"] {
     cursor: pointer;
 }
 
-p a:visited,
-p a:link,
-p a:hover,
-p a:active {
+a:visited,
+a:link,
+a:hover,
+a:active {
     text-decoration: none;
     color: #000000;
 }

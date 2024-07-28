@@ -1,13 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>tecknum | Computadores </title>
+    <link rel="stylesheet" href="../css/computers.css">
+    <link rel="shortcut icon" href="../images/favicon.ico">
 </head>
 <body>
-    <h1>página em construção</h1>
-    <a href="../index.html">login</a>
-    <a href="register.html">registro</a>
+    <header>
+        <div id="logo">
+            <img src="../images/logo.png" alt="tecknum logo">
+            <p>Lista de Computadores</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Conta</a></li>
+                <li><a href="#">Financeiro</a></li>
+                <li><a href="#">Usuários</a></li>
+                <li><a href="../index.html">Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+        <main>
+            <div id="btns">
+                <div>
+                    <img id="btn-image-new" src="../images/add.png" alt="newPC">
+                    <button class="btn-option">
+                        Novo
+                    </button>
+                </div>
+                <div>
+                    <img id="btn-image-remove" src="../images/remove.png" alt="removePC">
+                    <button class="btn-option">
+                        Remover
+                    </button>
+                </div>
+                <div>
+                    <img id="btn-image-export" src="../images/export.png" alt="export">
+                    <button class="btn-option">
+                        Exportar
+                    </button>
+                </div>
+            </div>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Status</th>
+                        <th>Nome</th>
+                        <th>Espaço Livre / Total</th>
+                        <th>CPU</th>
+                        <th>RAM</th>
+                        <th>Sistema</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="background-color: green;">LIGADA</td>
+                        <td>vmw-prd-ad-01</td>
+                        <td>122 / 1024GB (SSD)</td>
+                        <td>i9 9900K</td>
+                        <td>64</td>
+                        <td>Windows Server 2019</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: yellow;">UPDATE</td>
+                        <td>TECKNUM-001</td>
+                        <td>234 / 256GB (SSD)</td>
+                        <td>i5 12500</td>
+                        <td>16</td>
+                        <td>Windows 11 23H3</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: green;">LIGADA</td>
+                        <td>vmw-prd-ser-01</td>
+                        <td>30 / 2056GB (HDD)</td>
+                        <td>i9 14900K</td>
+                        <td>128</td>
+                        <td>Ubuntu 22.04</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: red;">DESLIGADA</td>
+                        <td>TESTE_USER</td>
+                        <td>10 / 20 GB (HDD)</td>
+                        <td>i3 8700</td>
+                        <td>8</td>
+                        <td>Windows 10 22H2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </body>
 </body>
 </html>

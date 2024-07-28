@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tecknum | Login</title>
+    <title>tecknum</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="images/logo.png">
+    <link rel="shortcut icon" href="images/favicon.ico">
 </head>
 <body>
    <main>
-        <div id="logo">
-            <img src="images/logo.png" alt="tecknum logo">
-            <p>tecknum</p>
-        </div>
-        <form>
+        <a href="index.html">
+            <div id="logo">
+                <img src="images/logo.png" alt="tecknum logo">
+                <p>tecknum</p>
+            </div>
+        </a>
+
+        <form action="pages/computers.html" method="GET">
             <label for="name">Usuário</label><br>
             <input type="text" id="name" name="name" required>
 
@@ -30,6 +33,7 @@
 
             <input type="submit" value="Acessar">
         </form>
+
         <p id="noAccount">Não possui uma conta?
             <a href="pages/register.html">
                 <b>Cadastre-se</b>
