@@ -4,15 +4,20 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
 }
 
 main {
     background-color: rgb(255, 255, 255);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     width: 50vw;
-    text-align: center;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    width: 50%;
 }
 
 input {
@@ -20,37 +25,32 @@ input {
 }
 
 form input[type="text"],
-form input[type="password"] {
-    width: 15rem;
+form input[type="password"],
+form input[type="submit"] {
+    width: 90%;
     padding: 1rem;
+    margin: 1rem auto;
     border: 2px solid #000000;
 }
 
-label {
-    text-align: left;
-    display: block;
-}
-
-.field {
+#forgotPass {
     display: flex;
-    justify-content: center;
-    gap: 2rem;
-    margin: 1.5rem;
+    justify-content: flex-end;
+    color: #000000;
 }
 
-input[type="submit"] {
+#keepMeOn {
+    gap: 0.5rem;
+    margin: 1rem 0 1rem 0;
+    display: flex;
+}
+
+form input[type="submit"] {
     background-color: #205B99;
     border: none;
-    margin-top: 2rem;
     color: #FFFFFF;
-    padding: 1rem 7.5rem;
+    width: 100%;
     font-weight: bold;
     font-size: 1.25rem;
     cursor: pointer;
-}
-
-.agree {
-    gap: 0.5rem;
-    display: flex;
-    justify-content: center;
 }
