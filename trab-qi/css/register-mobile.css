@@ -1,28 +1,30 @@
 @media (max-width: 768px) {
-     body {
+    body {
         background-size: auto;
+        background-color: #FFFFFF;
+        background-image: none;
     }
 
     main {
-        width: 90vw; /* Ajusta a largura para se ajustar melhor a dispositivos móveis */
+        width: 100vw; /* Ajusta a largura para se ajustar melhor a dispositivos móveis */
         height: auto; /* Permite que o conteúdo se expanda conforme necessário */
         padding: 2rem; /* Adiciona um pouco de espaçamento interno */
     }
 
     #logo {
-        margin-top: 10%; /* Reduz a margem superior para telas menores */
+        margin: 1rem; /* Reduz a margem superior para telas menores */
         display: flex;
         flex-direction: column;
         align-items: center; /* Centraliza o logo e o texto */
     }
 
     #logo img {
-        max-width: 80%; /* Ajusta o tamanho do logo para não ocupar muito espaço */
-    height: 3.5rem;
+        max-width: 100%; /* Ajusta o tamanho do logo para não ocupar muito espaço */
+        height: 7rem;
         
     }
     #logo p {
-        margin-top: 1rem;
+        margin: 1rem;
         font-size: 2rem;
     }
 
@@ -39,13 +41,16 @@
     }
 
     input[type="submit"] {
-        width: 100%; /* Faz o botão de enviar preencher a largura disponível */
+        width: 10rem; /* Faz o botão de enviar preencher a largura disponível */
         padding: 1rem;
+        margin-left: 1rem;
         font-size: 1rem; /* Ajusta o tamanho da fonte para uma tela menor */
     }
 
     .agree {
-        
+        width: 100%;
+        font-size: 0.75rem;   
+        margin-left: 0.75rem;
     }
 
     .no-account {
