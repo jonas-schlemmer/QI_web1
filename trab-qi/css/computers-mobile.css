@@ -7,7 +7,7 @@
     }
 
     #logo img {
-        width: 80px;
+        width: 5rem;
         height: auto;
     }
 
@@ -22,14 +22,11 @@
     }
 
     main {
-        padding: 0rem;
         margin: 2rem 0;
     }
 
     #options {
         display: none;
-        flex-direction: row;
-        align-items: flex-end;
     }
 
     .btn-option {
@@ -52,8 +49,8 @@
 
     table tbody tr td {
         display: flex;
-        justify-content: space-evenly;
-        border: 5px solid #DDDDDD;
+        justify-content: space-between;
+        border: 0.5rem solid #FFFFFF;
         padding: 0rem 0;
     }
 
@@ -75,6 +72,11 @@
     #chat-message {
         width: 100%;
         display: none;
+    }
+
+    .status {
+        justify-content: center;
+        font-weight: bold;
     }
 
     .name {
