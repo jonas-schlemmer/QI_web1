@@ -26,7 +26,8 @@
     }
 
     #options {
-        display: none;
+        display: flex;
+        width: 0;
     }
 
     .btn-option {
@@ -59,10 +60,40 @@
         font-weight: bold;
     }
 
-    footer {
-        margin-right: -4rem;
-        padding: 2rem;
-        text-align: right;
+    footer h2, .chat-box, .chat-input {
+        display: none;
+    }
+
+    #btn-image-new {
+        bottom: 0;
+        right: 15rem;
+        margin: 2.5rem;
+        width: 4rem;
+        position: fixed;
+    }
+
+    #btn-image-remove {
+        bottom: 0;
+        right: 10rem;
+        margin: 2.5rem;
+        width: 3.5rem;
+        position: fixed;
+    }
+
+    #btn-image-export {
+        bottom: 0;
+        right: 5rem;
+        margin: 2.5rem;
+        width: 4rem;
+        position: fixed;
+    }
+
+    #btn-image-help {
+        bottom: 0;
+        right: 0;
+        margin: 2.5rem;
+        width: 4rem;
+        position: fixed;
     }
 
     .chat-box, .chat-input {
