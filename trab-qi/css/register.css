@@ -17,10 +17,8 @@ main {
     justify-content: center; /* Centraliza horizontalmente */
 }
 
-@media (min-width: 2000px) {
-    #logo {
-        margin-top: 25%;
-    }
+#logo {
+    margin-top: 10%;
 }
 
 input {
