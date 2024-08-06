@@ -17,7 +17,7 @@ main {
     justify-content: center; /* Centraliza horizontalmente */
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 2000px) {
     #logo {
         margin-top: 25%;
     }
